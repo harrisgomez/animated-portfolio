@@ -8,6 +8,7 @@
     min-height: 100vh;
     background: url('./hero.jpg');
     background-size: cover;
+    background-position: center;
     padding: 0rem 5rem;
     color: whitesmoke;
 }
@@ -34,8 +35,12 @@ nav {
     top: 30%;
     left: 50%;
     transform: translate(-50%, -30%);
-    font-size: 5rem;
+    /* font-size: 3rem; */
 }
+
+.name { font-size: 5rem; }
+
+.role { font-size: 4rem; }
 
 .intro {
     background: black;
